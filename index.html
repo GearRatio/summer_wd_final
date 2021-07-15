@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+
+    <audio id="audio1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
+        </source>
+    </audio>
+    <audio id="audio2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
+        </source>
+    </audio>
+    <audio id="audio3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
+        </source>
+    </audio>
+    <audio id="audio4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+        </source>
+    </audio>
+
+
+
+    <title>Simon Says</title>
+</head>
+
+<body>
+    <!-- <h5 id="sequence"></h5> -->
+    <div id="outerCircle" class="simon-container">
+        <div id="red" class="color-button"></div>
+        <div id="blue" class="color-button"></div>
+        <div id="green" class="color-button"></div>
+        <div id="yellow" class="color-button"></div>
+        <div id="inner-circle">
+            <div id="title">SIMON</div>
+            <div id="startGame">
+                <button class="button" id="start" onclick="startGame()">Start</button>
+            </div>
+            <div id="turn">-</div>
+            <div class="text2">COUNT</div>
+            <!-- <div id="modal-container"><span onclick="closemodal()">x</span>
+                <div id="modal"></div>
+            </div> -->
+        </div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>

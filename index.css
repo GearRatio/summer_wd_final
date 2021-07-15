@@ -1,0 +1,183 @@
+#title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: silver;
+    border: 1px silver solid;
+    padding: 5px;
+    position: absolute;
+    margin-left: 44px;
+    margin-top: 25px;
+}
+
+#turn {
+    position: absolute;
+    background: #330000;
+    color: red;
+    font-family: courier;
+    font-size: 20px;
+    height: 20px;
+    width: 35px;
+    margin-left: 76px;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.button {
+    border-radius: 50%;
+    height: 30px;
+    background: silver;
+    border: 1px solid silver;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    ;
+}
+
+.text2 {
+    color: silver;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    margin-left: 69px;
+    margin-top: 24px;
+}
+
+#startGame {
+    margin-left: 69px;
+    margin-top: 80px;
+}
+
+#level {
+    font-size: 14px;
+    color: tomato;
+}
+
+#outerCircle {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 8px 8px 15px 8px #888888;
+}
+
+#red {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 0 0 0;
+    -moz-border-radius: 200px 0 0 0;
+    -webkit-border-radius: 200px 0 0 0;
+    background: #be1010;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0px 0px -200px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+}
+
+#blue {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 200px 0 0;
+    -moz-border-radius: 0 200px 0 0;
+    -webkit-border-radius: 0 200px 0 0;
+    background: navy;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0px 0px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+}
+
+#green {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 0 200px;
+    -moz-border-radius: 0 0 0 200px;
+    -webkit-border-radius: 0 0 0 200px;
+    background: darkgreen;
+    top: 50%;
+    left: 50%;
+    margin: 0px -200px 0px -200px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+}
+
+#yellow {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 200px 0;
+    -moz-border-radius: 0 0 200px 0;
+    -webkit-border-radius: 0 0 200px 0;
+    background: #e7e72d;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -200px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+}
+
+#inner-circle {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 6px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0px 0px -100px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#red:active {
+    background: #ffbbbb;
+}
+
+#blue:active {
+    background: #c8c8ff;
+}
+
+#green:active {
+    background: #dcffdc;
+}
+
+#yellow:active {
+    background: #ffffca;
+}
+
+#modal-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border: 2px solid black;
+    height: 150px;
+    background: darkolivegreen;
+    margin-bottom: 80px;
+}
